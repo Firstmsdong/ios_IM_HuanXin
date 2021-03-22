@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBB949E260870910086C415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB949D260870910086C415 /* AppDelegate.m */; };
+		6DBB94A1260870910086C415 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94A0260870910086C415 /* SceneDelegate.m */; };
+		6DBB94A4260870910086C415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94A3260870910086C415 /* ViewController.m */; };
+		6DBB94A7260870910086C415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB94A5260870910086C415 /* Main.storyboard */; };
+		6DBB94AA260870910086C415 /* ios_IM_HuanXin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94A8260870910086C415 /* ios_IM_HuanXin.xcdatamodeld */; };
+		6DBB94AC260870930086C415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB94AB260870930086C415 /* Assets.xcassets */; };
+		6DBB94AF260870930086C415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB94AD260870930086C415 /* LaunchScreen.storyboard */; };
+		6DBB94B2260870930086C415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94B1260870930086C415 /* main.m */; };
+		6DBB94BC260870940086C415 /* ios_IM_HuanXinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94BB260870940086C415 /* ios_IM_HuanXinTests.m */; };
+		6DBB94C7260870940086C415 /* ios_IM_HuanXinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94C6260870940086C415 /* ios_IM_HuanXinUITests.m */; };
+		9BC9EF07021D03F4473A484C /* libPods-ios_IM_HuanXin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9DCA33C471031E62D7624FE /* libPods-ios_IM_HuanXin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DBB94B8260870940086C415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBB9491260870910086C415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBB9498260870910086C415;
+			remoteInfo = ios_IM_HuanXin;
+		};
+		6DBB94C3260870940086C415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBB9491260870910086C415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBB9498260870910086C415;
+			remoteInfo = ios_IM_HuanXin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DBB9499260870910086C415 /* ios_IM_HuanXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_IM_HuanXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB949C260870910086C415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DBB949D260870910086C415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DBB949F260870910086C415 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6DBB94A0260870910086C415 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6DBB94A2260870910086C415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DBB94A3260870910086C415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DBB94A6260870910086C415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBB94A9260870910086C415 /* ios_IM_HuanXin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_IM_HuanXin.xcdatamodel; sourceTree = "<group>"; };
+		6DBB94AB260870930086C415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBB94AE260870930086C415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DBB94B0260870930086C415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBB94B1260870930086C415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DBB94B7260870940086C415 /* ios_IM_HuanXinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_IM_HuanXinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB94BB260870940086C415 /* ios_IM_HuanXinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_IM_HuanXinTests.m; sourceTree = "<group>"; };
+		6DBB94BD260870940086C415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBB94C2260870940086C415 /* ios_IM_HuanXinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_IM_HuanXinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBB94C6260870940086C415 /* ios_IM_HuanXinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_IM_HuanXinUITests.m; sourceTree = "<group>"; };
+		6DBB94C8260870940086C415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9456306A2FB7CBE3EA10CE /* Pods-ios_IM_HuanXin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_IM_HuanXin.release.xcconfig"; path = "Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin.release.xcconfig"; sourceTree = "<group>"; };
+		89BFCB29CFCCD43308AE7B9C /* Pods-ios_IM_HuanXin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_IM_HuanXin.debug.xcconfig"; path = "Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DCA33C471031E62D7624FE /* libPods-ios_IM_HuanXin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_IM_HuanXin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBB9496260870910086C415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC9EF07021D03F4473A484C /* libPods-ios_IM_HuanXin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94B4260870940086C415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94BF260870940086C415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31865BE6D805B9EDA7A5F24D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89BFCB29CFCCD43308AE7B9C /* Pods-ios_IM_HuanXin.debug.xcconfig */,
+				7D9456306A2FB7CBE3EA10CE /* Pods-ios_IM_HuanXin.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6DBB9490260870910086C415 = {
+			isa = PBXGroup;
+			children = (
+				6DBB949B260870910086C415 /* ios_IM_HuanXin */,
+				6DBB94BA260870940086C415 /* ios_IM_HuanXinTests */,
+				6DBB94C5260870940086C415 /* ios_IM_HuanXinUITests */,
+				6DBB949A260870910086C415 /* Products */,
+				31865BE6D805B9EDA7A5F24D /* Pods */,
+				D288194E884B8FEDF843F57C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBB949A260870910086C415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB9499260870910086C415 /* ios_IM_HuanXin.app */,
+				6DBB94B7260870940086C415 /* ios_IM_HuanXinTests.xctest */,
+				6DBB94C2260870940086C415 /* ios_IM_HuanXinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBB949B260870910086C415 /* ios_IM_HuanXin */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB949C260870910086C415 /* AppDelegate.h */,
+				6DBB949D260870910086C415 /* AppDelegate.m */,
+				6DBB949F260870910086C415 /* SceneDelegate.h */,
+				6DBB94A0260870910086C415 /* SceneDelegate.m */,
+				6DBB94A2260870910086C415 /* ViewController.h */,
+				6DBB94A3260870910086C415 /* ViewController.m */,
+				6DBB94A5260870910086C415 /* Main.storyboard */,
+				6DBB94AB260870930086C415 /* Assets.xcassets */,
+				6DBB94AD260870930086C415 /* LaunchScreen.storyboard */,
+				6DBB94B0260870930086C415 /* Info.plist */,
+				6DBB94B1260870930086C415 /* main.m */,
+				6DBB94A8260870910086C415 /* ios_IM_HuanXin.xcdatamodeld */,
+			);
+			path = ios_IM_HuanXin;
+			sourceTree = "<group>";
+		};
+		6DBB94BA260870940086C415 /* ios_IM_HuanXinTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB94BB260870940086C415 /* ios_IM_HuanXinTests.m */,
+				6DBB94BD260870940086C415 /* Info.plist */,
+			);
+			path = ios_IM_HuanXinTests;
+			sourceTree = "<group>";
+		};
+		6DBB94C5260870940086C415 /* ios_IM_HuanXinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBB94C6260870940086C415 /* ios_IM_HuanXinUITests.m */,
+				6DBB94C8260870940086C415 /* Info.plist */,
+			);
+			path = ios_IM_HuanXinUITests;
+			sourceTree = "<group>";
+		};
+		D288194E884B8FEDF843F57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9DCA33C471031E62D7624FE /* libPods-ios_IM_HuanXin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBB9498260870910086C415 /* ios_IM_HuanXin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBB94CB260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXin" */;
+			buildPhases = (
+				056EA95B2712CD39B65BEDF1 /* [CP] Check Pods Manifest.lock */,
+				6DBB9495260870910086C415 /* Sources */,
+				6DBB9496260870910086C415 /* Frameworks */,
+				6DBB9497260870910086C415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ios_IM_HuanXin;
+			productName = ios_IM_HuanXin;
+			productReference = 6DBB9499260870910086C415 /* ios_IM_HuanXin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DBB94B6260870940086C415 /* ios_IM_HuanXinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBB94CE260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXinTests" */;
+			buildPhases = (
+				6DBB94B3260870940086C415 /* Sources */,
+				6DBB94B4260870940086C415 /* Frameworks */,
+				6DBB94B5260870940086C415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBB94B9260870940086C415 /* PBXTargetDependency */,
+			);
+			name = ios_IM_HuanXinTests;
+			productName = ios_IM_HuanXinTests;
+			productReference = 6DBB94B7260870940086C415 /* ios_IM_HuanXinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DBB94C1260870940086C415 /* ios_IM_HuanXinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBB94D1260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXinUITests" */;
+			buildPhases = (
+				6DBB94BE260870940086C415 /* Sources */,
+				6DBB94BF260870940086C415 /* Frameworks */,
+				6DBB94C0260870940086C415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBB94C4260870940086C415 /* PBXTargetDependency */,
+			);
+			name = ios_IM_HuanXinUITests;
+			productName = ios_IM_HuanXinUITests;
+			productReference = 6DBB94C2260870940086C415 /* ios_IM_HuanXinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBB9491260870910086C415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6DBB9498260870910086C415 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6DBB94B6260870940086C415 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6DBB9498260870910086C415;
+					};
+					6DBB94C1260870940086C415 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6DBB9498260870910086C415;
+					};
+				};
+			};
+			buildConfigurationList = 6DBB9494260870910086C415 /* Build configuration list for PBXProject "ios_IM_HuanXin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBB9490260870910086C415;
+			productRefGroup = 6DBB949A260870910086C415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBB9498260870910086C415 /* ios_IM_HuanXin */,
+				6DBB94B6260870940086C415 /* ios_IM_HuanXinTests */,
+				6DBB94C1260870940086C415 /* ios_IM_HuanXinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBB9497260870910086C415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB94AF260870930086C415 /* LaunchScreen.storyboard in Resources */,
+				6DBB94AC260870930086C415 /* Assets.xcassets in Resources */,
+				6DBB94A7260870910086C415 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94B5260870940086C415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94C0260870940086C415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056EA95B2712CD39B65BEDF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_IM_HuanXin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBB9495260870910086C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB94B2260870930086C415 /* main.m in Sources */,
+				6DBB94A4260870910086C415 /* ViewController.m in Sources */,
+				6DBB94AA260870910086C415 /* ios_IM_HuanXin.xcdatamodeld in Sources */,
+				6DBB949E260870910086C415 /* AppDelegate.m in Sources */,
+				6DBB94A1260870910086C415 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94B3260870940086C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB94BC260870940086C415 /* ios_IM_HuanXinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBB94BE260870940086C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB94C7260870940086C415 /* ios_IM_HuanXinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DBB94B9260870940086C415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBB9498260870910086C415 /* ios_IM_HuanXin */;
+			targetProxy = 6DBB94B8260870940086C415 /* PBXContainerItemProxy */;
+		};
+		6DBB94C4260870940086C415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBB9498260870910086C415 /* ios_IM_HuanXin */;
+			targetProxy = 6DBB94C3260870940086C415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DBB94A5260870910086C415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBB94A6260870910086C415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DBB94AD260870930086C415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBB94AE260870930086C415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBB94C9260870940086C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DBB94CA260870940086C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DBB94CC260870940086C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89BFCB29CFCCD43308AE7B9C /* Pods-ios_IM_HuanXin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DBB94CD260870940086C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9456306A2FB7CBE3EA10CE /* Pods-ios_IM_HuanXin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DBB94CF260870940086C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_IM_HuanXin.app/ios_IM_HuanXin";
+			};
+			name = Debug;
+		};
+		6DBB94D0260870940086C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios_IM_HuanXin.app/ios_IM_HuanXin";
+			};
+			name = Release;
+		};
+		6DBB94D2260870940086C415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_IM_HuanXin;
+			};
+			name = Debug;
+		};
+		6DBB94D3260870940086C415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQW457Z644;
+				INFOPLIST_FILE = ios_IM_HuanXinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ios_IM_HuanXin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBB9494260870910086C415 /* Build configuration list for PBXProject "ios_IM_HuanXin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB94C9260870940086C415 /* Debug */,
+				6DBB94CA260870940086C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBB94CB260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB94CC260870940086C415 /* Debug */,
+				6DBB94CD260870940086C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBB94CE260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB94CF260870940086C415 /* Debug */,
+				6DBB94D0260870940086C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBB94D1260870940086C415 /* Build configuration list for PBXNativeTarget "ios_IM_HuanXinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB94D2260870940086C415 /* Debug */,
+				6DBB94D3260870940086C415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DBB94A8260870910086C415 /* ios_IM_HuanXin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DBB94A9260870910086C415 /* ios_IM_HuanXin.xcdatamodel */,
+			);
+			currentVersion = 6DBB94A9260870910086C415 /* ios_IM_HuanXin.xcdatamodel */;
+			path = ios_IM_HuanXin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DBB9491260870910086C415 /* Project object */;
+}
