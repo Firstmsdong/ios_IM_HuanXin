@@ -15,7 +15,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    EMOptions *options = [EMOptions optionsWithAppkey:HUANXINAPPKEY];
+    // apnsCertName是证书名称，可以先传nil，等后期配置apns推送时在传入证书名称
+    options.apnsCertName = nil;
+    [[EMClient sharedClient] initializeSDKWithOptions:options];
+    
+    
     return YES;
 }
 

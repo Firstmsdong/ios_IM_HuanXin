@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DA9C408260876DD00337BDC /* MXTabBarCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C3F8260876DD00337BDC /* MXTabBarCenterButton.m */; };
+		6DA9C409260876DD00337BDC /* tabbar_classification_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9C3F9260876DD00337BDC /* tabbar_classification_fill@2x.png */; };
+		6DA9C40A260876DD00337BDC /* MXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C3FA260876DD00337BDC /* MXTabBarController.m */; };
+		6DA9C40B260876DD00337BDC /* MXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C3FE260876DD00337BDC /* MXTabBar.m */; };
+		6DA9C40C260876DD00337BDC /* UIImageView+ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C401260876DD00337BDC /* UIImageView+ImageView.m */; };
+		6DA9C40D260876DD00337BDC /* UILabel+Labbel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C403260876DD00337BDC /* UILabel+Labbel.m */; };
+		6DA9C40E260876DD00337BDC /* UIButton+MSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C404260876DD00337BDC /* UIButton+MSDButton.m */; };
+		6DA9C40F260876DD00337BDC /* UITextField+MSDTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C407260876DD00337BDC /* UITextField+MSDTextFile.m */; };
 		6DBB949E260870910086C415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB949D260870910086C415 /* AppDelegate.m */; };
 		6DBB94A1260870910086C415 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94A0260870910086C415 /* SceneDelegate.m */; };
 		6DBB94A4260870910086C415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB94A3260870910086C415 /* ViewController.m */; };
@@ -38,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DA9C3F2260875BE00337BDC /* PCHFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHFile.pch; sourceTree = "<group>"; };
+		6DA9C3F8260876DD00337BDC /* MXTabBarCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBarCenterButton.m; sourceTree = "<group>"; };
+		6DA9C3F9260876DD00337BDC /* tabbar_classification_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_classification_fill@2x.png"; sourceTree = "<group>"; };
+		6DA9C3FA260876DD00337BDC /* MXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBarController.m; sourceTree = "<group>"; };
+		6DA9C3FB260876DD00337BDC /* MXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBar.h; sourceTree = "<group>"; };
+		6DA9C3FC260876DD00337BDC /* MXTabBarCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBarCenterButton.h; sourceTree = "<group>"; };
+		6DA9C3FD260876DD00337BDC /* MXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXTabBarController.h; sourceTree = "<group>"; };
+		6DA9C3FE260876DD00337BDC /* MXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXTabBar.m; sourceTree = "<group>"; };
+		6DA9C400260876DD00337BDC /* UIButton+MSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MSDButton.h"; sourceTree = "<group>"; };
+		6DA9C401260876DD00337BDC /* UIImageView+ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageView.m"; sourceTree = "<group>"; };
+		6DA9C402260876DD00337BDC /* UITextField+MSDTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MSDTextFile.h"; sourceTree = "<group>"; };
+		6DA9C403260876DD00337BDC /* UILabel+Labbel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Labbel.m"; sourceTree = "<group>"; };
+		6DA9C404260876DD00337BDC /* UIButton+MSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MSDButton.m"; sourceTree = "<group>"; };
+		6DA9C405260876DD00337BDC /* UIImageView+ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageView.h"; sourceTree = "<group>"; };
+		6DA9C406260876DD00337BDC /* UILabel+Labbel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Labbel.h"; sourceTree = "<group>"; };
+		6DA9C407260876DD00337BDC /* UITextField+MSDTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MSDTextFile.m"; sourceTree = "<group>"; };
 		6DBB9499260870910086C415 /* ios_IM_HuanXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_IM_HuanXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DBB949C260870910086C415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DBB949D260870910086C415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,8 +118,61 @@
 				89BFCB29CFCCD43308AE7B9C /* Pods-ios_IM_HuanXin.debug.xcconfig */,
 				7D9456306A2FB7CBE3EA10CE /* Pods-ios_IM_HuanXin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6DA9C3F0260875BE00337BDC /* MSDManage */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9C3F1260875BE00337BDC /* PHCfile */,
+			);
+			path = MSDManage;
+			sourceTree = "<group>";
+		};
+		6DA9C3F1260875BE00337BDC /* PHCfile */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9C3F2260875BE00337BDC /* PCHFile.pch */,
+			);
+			path = PHCfile;
+			sourceTree = "<group>";
+		};
+		6DA9C3F6260876DD00337BDC /* MSDTools */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9C3F7260876DD00337BDC /* MSDTabBarFile */,
+				6DA9C3FF260876DD00337BDC /* MSDEncapsulation */,
+			);
+			path = MSDTools;
+			sourceTree = "<group>";
+		};
+		6DA9C3F7260876DD00337BDC /* MSDTabBarFile */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9C3F8260876DD00337BDC /* MXTabBarCenterButton.m */,
+				6DA9C3F9260876DD00337BDC /* tabbar_classification_fill@2x.png */,
+				6DA9C3FA260876DD00337BDC /* MXTabBarController.m */,
+				6DA9C3FB260876DD00337BDC /* MXTabBar.h */,
+				6DA9C3FC260876DD00337BDC /* MXTabBarCenterButton.h */,
+				6DA9C3FD260876DD00337BDC /* MXTabBarController.h */,
+				6DA9C3FE260876DD00337BDC /* MXTabBar.m */,
+			);
+			path = MSDTabBarFile;
+			sourceTree = "<group>";
+		};
+		6DA9C3FF260876DD00337BDC /* MSDEncapsulation */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9C400260876DD00337BDC /* UIButton+MSDButton.h */,
+				6DA9C404260876DD00337BDC /* UIButton+MSDButton.m */,
+				6DA9C405260876DD00337BDC /* UIImageView+ImageView.h */,
+				6DA9C401260876DD00337BDC /* UIImageView+ImageView.m */,
+				6DA9C402260876DD00337BDC /* UITextField+MSDTextFile.h */,
+				6DA9C407260876DD00337BDC /* UITextField+MSDTextFile.m */,
+				6DA9C406260876DD00337BDC /* UILabel+Labbel.h */,
+				6DA9C403260876DD00337BDC /* UILabel+Labbel.m */,
+			);
+			path = MSDEncapsulation;
 			sourceTree = "<group>";
 		};
 		6DBB9490260870910086C415 = {
@@ -123,6 +200,8 @@
 		6DBB949B260870910086C415 /* ios_IM_HuanXin */ = {
 			isa = PBXGroup;
 			children = (
+				6DA9C3F6260876DD00337BDC /* MSDTools */,
+				6DA9C3F0260875BE00337BDC /* MSDManage */,
 				6DBB949C260870910086C415 /* AppDelegate.h */,
 				6DBB949D260870910086C415 /* AppDelegate.m */,
 				6DBB949F260870910086C415 /* SceneDelegate.h */,
@@ -176,6 +255,8 @@
 				6DBB9495260870910086C415 /* Sources */,
 				6DBB9496260870910086C415 /* Frameworks */,
 				6DBB9497260870910086C415 /* Resources */,
+				4A9654A04BF2438B3477C199 /* [CP] Embed Pods Frameworks */,
+				686BF2570F49F3531AC6CA81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBB94AF260870930086C415 /* LaunchScreen.storyboard in Resources */,
+				6DA9C409260876DD00337BDC /* tabbar_classification_fill@2x.png in Resources */,
 				6DBB94AC260870930086C415 /* Assets.xcassets in Resources */,
 				6DBB94A7260870910086C415 /* Main.storyboard in Resources */,
 			);
@@ -313,6 +395,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4A9654A04BF2438B3477C199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686BF2570F49F3531AC6CA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_IM_HuanXin/Pods-ios_IM_HuanXin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -320,10 +436,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DA9C40E260876DD00337BDC /* UIButton+MSDButton.m in Sources */,
+				6DA9C40D260876DD00337BDC /* UILabel+Labbel.m in Sources */,
 				6DBB94B2260870930086C415 /* main.m in Sources */,
+				6DA9C40F260876DD00337BDC /* UITextField+MSDTextFile.m in Sources */,
+				6DA9C408260876DD00337BDC /* MXTabBarCenterButton.m in Sources */,
+				6DA9C40C260876DD00337BDC /* UIImageView+ImageView.m in Sources */,
+				6DA9C40A260876DD00337BDC /* MXTabBarController.m in Sources */,
 				6DBB94A4260870910086C415 /* ViewController.m in Sources */,
 				6DBB94AA260870910086C415 /* ios_IM_HuanXin.xcdatamodeld in Sources */,
 				6DBB949E260870910086C415 /* AppDelegate.m in Sources */,
+				6DA9C40B260876DD00337BDC /* MXTabBar.m in Sources */,
 				6DBB94A1260870910086C415 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +622,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQW457Z644;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios_IM_HuanXin/MSDManage/PHCfile/PCHFile.pch";
 				INFOPLIST_FILE = ios_IM_HuanXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,6 +631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -518,6 +643,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQW457Z644;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios_IM_HuanXin/MSDManage/PHCfile/PCHFile.pch";
 				INFOPLIST_FILE = ios_IM_HuanXin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +652,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "mashudong.ios-IM-HuanXin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
